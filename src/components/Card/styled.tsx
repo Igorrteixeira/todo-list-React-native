@@ -19,6 +19,13 @@ export const styles = StyleSheet.create({
     flexWrap: "wrap",
     width: 200,
   },
+  date: {
+    fontSize: 11,
+    color: '#585757',
+    position: 'absolute',
+    bottom: 1,
+    right: 12,
+  },
 
   button: {
     width: 30,

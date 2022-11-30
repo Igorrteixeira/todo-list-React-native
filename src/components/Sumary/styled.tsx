@@ -5,10 +5,10 @@ export const Container = styled.View`
 `
 
 export const Count = styled.Text`
-        width:25;
-        height:20;
-        margin-left:10;
-        border-radius:10;
+        width:25px;
+        height:20px;
+        margin-left:10px;
+        border-radius:10px;
         text-align:center;
         background-color:#333333;
         color:#ffffff;

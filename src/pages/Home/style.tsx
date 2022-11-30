@@ -1,34 +1,42 @@
 import styled from "styled-components/native";
-import { StyleSheet } from "react-native";
 
 export const Container = styled.View`
   background: #1a1a1a;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  height: 100%; 
 `;
 export const ContTitle = styled.View`
   flex-direction: row;
   align-items: center;
-
+  justify-content: center;
   padding: 55px;
 `;
+
+export const NotTask = styled.View`
+  align-items: center;
+  margin: 15px;
+`
 export const Title = styled.Text`
   font-size: 45px;
-`;
+  font-weight:bold;
+  font-family: 'Inter-Black'
+
+  `;
 
 export const Logo = styled.View`
   background: #0d0d0d;
   align-items: center;
-  height: 190;
+  height: 190px;
   width: 100%;
 `;
 export const Input = styled.TextInput`
   padding: 10px;
+  color: #e4e0e0;
   width: 70%;
-  height: 60;
+  height: 60px;
   background-color: #333333;
-  border-radius: 5;
+  border-radius: 5px;
   margin: 2px;
 `;
 
