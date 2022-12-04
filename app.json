@@ -22,12 +22,19 @@
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.irt-dev.todo-list",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.igorrt.List"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6141342e-6b64-4c61-a0b0-dce14a64b58a"
+      }
     }
   }
 }
